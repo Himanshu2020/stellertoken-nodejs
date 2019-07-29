@@ -4,12 +4,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var stellerapi = require('./routes/stellerapi');
-var addTrustAPI = require('./routes/addtrust');
+var transferTokenAPI = require('./routes/transfertoken');
 var balanceAPI = require('./routes/balance');
-var accountAPI = require('./routes/account');
 var createAccountAPI = require('./routes/createaccount');
 
 var app = express();
@@ -24,26 +20,11 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-
-app.use('/', indexRouter);
-app.use('/createwallet', stellerapi);
-
 //  Add trust line 
 
-app.use('/', indexRouter);
-app.use('/addtrust', addTrustAPI);
-
-app.use('/', indexRouter);
+app.use('/transfertoken', transferTokenAPI);
 app.use('/getbalance', balanceAPI);
-
-app.use('/', indexRouter);
-app.use('/account', accountAPI);
-
-app.use('/', indexRouter);
 app.use('/createAccount', createAccountAPI);
-
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
