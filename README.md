@@ -57,6 +57,25 @@ Reference link
 https://medium.com/coinmonks/how-to-create-your-own-token-on-stellar-in-5-easy-steps-6d0956e3fede
 https://horizon-testnet.stellar.org/accounts/GBFBET47HTMKOVYYUMV6XC7TVGZHY5EARZC66TMVJ2TMR5CVA37ORZ6C
 
+=======================  Accounts =================================
+
+issuing account 
+
+{"publicKey":"GA77CK4BSM3EG2AEX6EAHTEOUEOBQLP4A6SUYIB23DD5F5ELWMORFGM5",
+"privateKey":"SAB6AZ6XJ3WP5USBDYI2DMWUMNHDAG6KQALSECOPVLRE7LEBTKBE33KP"}
+
+
+
+distributing account 
+
+{"publicKey":"GC2VXXHJZXNRUPNZ3EX4TZCI4XMBA24ATTRQCHPHX2S5OEDGWO2JHFKZ",
+"privateKey":"SAYH6F4NRJ7HA4OK66GDPMAODJH65F6NQAVQ2PWHRB4O2ACIUHAYF67X"}
+
+-----------============-----------------------===========----------------
+
+
+{"publicKey":"GCC32CC52NRCXOKFOBCRPGMIJPJXQZ3Q62J2ISQY6WA76OWNRMNFH5UZ","privateKey":"SDCERJHHLXNU5AW6HILJOH2KY54XFVVJDSB3YDR6BUUV2AKNTP7CSO23"}
+
 
 
 
